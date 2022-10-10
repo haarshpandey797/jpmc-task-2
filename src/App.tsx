@@ -52,7 +52,7 @@ class App extends Component<{}, IState> {
       if(x>0){
         clearInterval(interval);
       }
-    },1000;
+    },1000);
   }
 
   /**
